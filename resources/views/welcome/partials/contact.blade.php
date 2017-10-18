@@ -9,7 +9,7 @@
 <div class="field">
 <label class="label">Email</label>
 <div class="control has-icons-left has-icons-right">
-  <input class="input is-primary" type="email" placeholder="example@admin.com">
+  <input class="input is-primary" type="email" required placeholder="example@admin.com">
   <span class="icon is-small is-left">
     <i class="fa fa-envelope"></i>
   </span>
@@ -23,7 +23,7 @@
 <div class="field">
 <label class="label">Phone</label>
 <div class="control has-icons-left has-icons-right">
-  <input class="input is-primary" type="tel" placeholder="###-###-####">
+  <input class="input is-primary" type="tel" required placeholder="###-###-####">
   <span class="icon is-small is-left">
     <i class="fa fa-phone"></i>
   </span>
@@ -32,22 +32,22 @@
 <div class="field">
   <label class="label">Address</label>
   <div class="control">
-    <input class="input" type="text" placeholder="Street Address">
+    <input class="input is-primary" type="text" required placeholder="Street Address">
     <span class="icon is-small is-left">
-        <i class="fa fa-address-book-o" aria-hidden="true"></i>
+        <i class="fa fa-address-book-o"></i>
     </span>
   </div>
 </div>
 <div class="field">
   <label class="label">City</label>
   <div class="control">
-    <input class="input" type="text" placeholder="City Name">
+    <input class="input is-primary" type="text" required placeholder="City Name">
   </div>
 </div>
-<div class="row">
+<div class="field">
     <label class="label">State</label>
-        <div class="control">
-            <div class="select">
+        <div class="control is-expanded">
+            <div class="select is-primary is-fullwidth" required>
             <select>
                 <option>Arkansas</option>
                 <option>Texas</option>
@@ -75,4 +75,17 @@
   <div class="column">
   <label class="label">GetRealT(Brokerage Bundle)</label>
   </div>
+</div>
+
+<div class="field is-grouped is-pulled-right">
+  <p class="control">
+    <a class="button is-primary is-outlined is-medium">
+      Save and Continue
+    </a>
+  </p>
+  <p class="control">
+    <a class="button is-danger is-outlined is-medium">
+      Cancel
+    </a>
+  </p>
 </div>
