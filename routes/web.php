@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome.welcome');
 });
+
+Route::get('chooseTheme', function () {
+    return view('welcome.chooseTheme');
+});

@@ -79,12 +79,12 @@
 
 <div class="field is-grouped is-pulled-right">
   <p class="control">
-    <a class="button is-primary is-outlined is-medium">
+    <a class="button is-primary is-outlined is-medium" href="{{ url('chooseTheme') }}">
       Save and Continue
     </a>
   </p>
   <p class="control">
-    <a class="button is-danger is-outlined is-medium">
+    <a class="button is-danger is-outlined is-medium"> <!--Get this working later-->
       Cancel
     </a>
   </p>
