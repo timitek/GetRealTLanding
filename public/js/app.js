@@ -1004,7 +1004,8 @@ var app = new Vue({
                 address: '',
                 city: '',
                 state: '',
-                zip: ''
+                zip: '',
+                file: []
             },
 
             themes: ['cerulean', 'cosmo', 'cyborg', 'darkly', 'flatly', 'journal', 'lumen', 'paper', 'readable', 'sandstone', 'simplex', 'slate', 'spacelab', 'superhero', 'united', 'yeti']
@@ -1019,6 +1020,10 @@ var app = new Vue({
         selectTheme: function selectTheme(theme) {
             this.selected.theme = theme;
             this.showPage('confirm');
+        },
+
+        selectFile: function selectFile(file) {
+            this.selected.file = file;
         }
     },
 

@@ -1,10 +1,13 @@
-<h1>Choose a theme:</h1>
+<h1 class="title">
+Choose a theme:
+</h1>
 
-<div v-for="theme in themes">
+<div class="columns is-mobile is-multiline">
+  <div class="column is-one-quarter" v-for="theme in themes">
     <img :src="'https://bootswatch.com/' + theme + '/thumbnail.png'" 
          v-on:click="selectTheme(theme)"
-         style="width:200px"
-         style="diaplay: inline">
+         style="width:300px">    
+  </div>
 </div>
 
 <div class="field is-grouped is-pulled-right">
@@ -14,7 +17,7 @@
         </a>
     </div>
     <div class="control">
-        <a class="button is-primary is-outlined is-medium" v-on:click="showPage('confirm')">
+        <a class="button is-primary is-outlined is-medium" v-on:click="showPage('file')">
         Save and Continue
         </a>
     </div>

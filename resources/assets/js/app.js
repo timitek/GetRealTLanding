@@ -32,7 +32,8 @@ const app = new Vue({
                 address: '',
                 city: '',
                 state: '',
-                zip: ''                
+                zip: '',
+                file: [],               
             },
 
             themes: [
@@ -52,7 +53,7 @@ const app = new Vue({
                 'superhero',
                 'united',
                 'yeti'
-            ]
+            ],
         }
     },
 
@@ -64,6 +65,10 @@ const app = new Vue({
         selectTheme: function (theme) {
             this.selected.theme = theme;
             this.showPage('confirm');
+        },
+
+        selectFile: function (file) {
+            this.selected.file = file;
         }
     },
 

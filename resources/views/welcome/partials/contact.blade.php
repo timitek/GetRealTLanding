@@ -1,3 +1,10 @@
+<h1 class="title">
+Hello World
+</h1>
+<p class="subtitle">
+Get started with <strong>GetRealT</strong>!
+</p>
+
 <div class="field">
   <label class="label">Name</label>
   <div class="columns is-mobile">
@@ -8,20 +15,17 @@
 
 <div class="field">
   <label class="label">Email</label>
-  <div class="control has-icons-left has-icons-right">
+  <div class="control has-icons-left">
     <input class="input is-primary" type="email" required placeholder="example@admin.com" v-model="selected.email">
     <span class="icon is-small is-left">
       <i class="fa fa-envelope"></i>
-    </span>
-    <span class="icon is-small is-right">
-      <i class="fa fa-warning"></i>
     </span>
   </div>
 </div>
 
 <div class="field">
   <label class="label">Phone</label>
-  <div class="control has-icons-left has-icons-right">
+  <div class="control has-icons-left">
     <input class="input is-primary" type="number" required placeholder="###-###-####" v-model="selected.phoneNumber">
     <span class="icon is-small is-left">
       <i class="fa fa-phone"></i>
@@ -31,7 +35,7 @@
 
 <div class="field">
   <label class="label">Address</label>
-  <div class="control">
+  <div class="control has-icons-left">
     <input class="input is-primary" type="text" required placeholder="Street Address" v-model="selected.address">
     <span class="icon is-small is-left">
       <i class="fa fa-address-book-o"></i>
@@ -68,7 +72,7 @@
   <p>Buy/transfer a domain and choose a hosting plan</p>
 </div>
 
-<div class="columns">
+<!--<div class="columns">
   <div class="column">
     <label class="label">State</label>
   </div>
@@ -78,12 +82,12 @@
   <div class="column">
     <label class="label">GetRealT(Brokerage Bundle)</label>
   </div>
-</div>
+</div>-->
 
 <div class="field is-grouped is-pulled-right">
   <p class="control">
     <a class="button is-primary is-outlined is-medium" v-on:click="showPage('theme')">
-      Save and Continue
+      Proceed
     </a>
   </p>
 </div>
