@@ -8,6 +8,12 @@ Hello World
 Get started with <strong>GetRealT</strong>!
 </p>
 
-  @include('welcome.partials.contact')
+
+<div v-if="currentPage === 'contact'">
+    @include('welcome.partials.contact')
+</div>
+<div v-if="currentPage === 'theme'">
+    @include('welcome.partials.theme')
+</div>
 
 @endsection

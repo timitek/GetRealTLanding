@@ -18,5 +18,58 @@ window.Vue = require('vue');
 Vue.component('example', require('./components/Example.vue'));
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+
+    data: function() {
+        return {
+            currentPage: 'contact',
+
+            selected: {
+                firstName: '',
+                lastName: '',
+                email: '',
+                phoneNumber: '',
+                address: '',
+                city: '',
+                state: '',
+                zip: ''                
+            },
+
+            themes: [
+                'cerulean',
+                'cosmo',
+                'cyborg',
+                'darkly',
+                'flatly',
+                'journal',
+                'lumen',
+                'paper',
+                'readable',
+                'sandstone',
+                'simplex',
+                'slate',
+                'spacelab',
+                'superhero',
+                'united',
+                'yeti'
+            ]
+        }
+
+
+    },
+
+    methods: {
+        showPage: function (pageName) {
+            this.currentPage = pageName;
+        },
+
+        selectTheme: function (theme) {
+            this.selected.theme = theme;
+           // this.showPage('done');
+        }
+    },
+
+    mounted: function() {
+
+    }
 });
