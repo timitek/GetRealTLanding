@@ -86,9 +86,4 @@
       Save and Continue
     </a>
   </p>
-  <p class="control">
-    <a class="button is-danger is-outlined is-medium"> <!--Get this working later-->
-      Cancel
-    </a>
-  </p>
 </div>

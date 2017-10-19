@@ -1018,7 +1018,7 @@ var app = new Vue({
 
         selectTheme: function selectTheme(theme) {
             this.selected.theme = theme;
-            // this.showPage('done');
+            this.showPage('confirm');
         }
     },
 

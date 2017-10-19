@@ -15,5 +15,8 @@ Get started with <strong>GetRealT</strong>!
 <div v-if="currentPage === 'theme'">
     @include('welcome.partials.theme')
 </div>
+<div v-if="currentPage === 'confirm'">
+    @include('welcome.partials.confirm')
+</div>
 
 @endsection

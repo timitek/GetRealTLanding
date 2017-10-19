@@ -54,8 +54,6 @@ const app = new Vue({
                 'yeti'
             ]
         }
-
-
     },
 
     methods: {
@@ -65,7 +63,7 @@ const app = new Vue({
 
         selectTheme: function (theme) {
             this.selected.theme = theme;
-           // this.showPage('done');
+            this.showPage('confirm');
         }
     },
 
