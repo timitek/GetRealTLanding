@@ -68,10 +68,6 @@ Get started with <strong>GetRealT</strong>!
   <input class="input is-primary" type="number" required placeholder="Zip code" v-model="selected.zip">
 </div>
 
-<div class="field">
-  <p>Buy/transfer a domain and choose a hosting plan</p>
-</div>
-
 <!--<div class="columns">
   <div class="column">
     <label class="label">State</label>

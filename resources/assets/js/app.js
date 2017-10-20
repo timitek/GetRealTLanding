@@ -64,7 +64,7 @@ const app = new Vue({
 
         selectTheme: function (theme) {
             this.selected.theme = theme;
-            this.showPage('confirm');
+            this.showPage('file');
         },
 
         selectFile: function (file) {

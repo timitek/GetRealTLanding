@@ -1019,7 +1019,7 @@ var app = new Vue({
 
         selectTheme: function selectTheme(theme) {
             this.selected.theme = theme;
-            this.showPage('confirm');
+            this.showPage('file');
         },
 
         selectFile: function selectFile(file) {

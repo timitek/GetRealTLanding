@@ -13,7 +13,8 @@ Upload Pictures:
         Choose a picture to upload
       </span>
     </span>
-    <span class="file-name" v-model="selected.file">
+    <span class="file-name">
+      File chosen
     </span>
   </label>
 </div>
