@@ -2,7 +2,7 @@
 Choose a theme:
 </h1>
 
-<div class="columns is-mobile is-multiline">
+<div class="columns is-multiline">
   <div class="column is-one-quarter" v-for="theme in themes">
     <img :src="'https://bootswatch.com/' + theme + '/thumbnail.png'" 
          v-on:click="selectTheme(theme)"

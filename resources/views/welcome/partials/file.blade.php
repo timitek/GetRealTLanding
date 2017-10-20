@@ -19,8 +19,16 @@ Upload Pictures:
   </label>
 </div>
 
-<div class="control is-pulled-right">
-        <a class="button is-primary is-outlined is-medium">
-        Submit
-        </a>
+<div class="notification is-danger" v-if="errorMessage">
+    <strong v-text="errorMessage"></strong>
+    <ul v-if="errorDetails">
+        <li v-for="error in errorDetails" v-text="error"></li>
+    </ul>
+</div>
+
+<div class="field is-grouped is-pulled-right">
+  <div class="control">
+      <a class="button is-warning is-outlined is-medium" v-on:click="showPage('theme')">Back</a>
+      <a class="button is-primary is-outlined is-medium" v-on:click="submit()" :disabled="submitting">Submit</a>
+  </div>
 </div>
