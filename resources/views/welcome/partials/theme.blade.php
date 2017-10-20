@@ -6,7 +6,7 @@ Choose a theme:
   <div class="column is-one-quarter" v-for="theme in themes">
     <img :src="'https://bootswatch.com/' + theme + '/thumbnail.png'" 
          v-on:click="selectTheme(theme)"
-         style="width:300px">    
+         class="img-theme-preview">    
   </div>
 </div>
 
