@@ -26,7 +26,7 @@ Get started with <strong>GetRealT</strong>!
 <div class="field">
   <label class="label">Phone</label>
   <div class="control has-icons-left">
-    <input class="input is-primary" type="tel" required placeholder="###-###-####" v-model="selected.phoneNumber">
+    <input class="input is-primary" type="number" required placeholder="###-###-####" v-model="selected.phone">
     <span class="icon is-small is-left">
       <i class="fa fa-phone"></i>
     </span>

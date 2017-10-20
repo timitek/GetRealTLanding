@@ -26,7 +26,7 @@ const app = new Vue({
                 firstName: '',
                 lastName: '',
                 email: '',
-                phoneNumber: '',
+                phone: '',
                 address: '',
                 city: '',
                 state: '',
@@ -101,7 +101,6 @@ const app = new Vue({
             axios.post('/api/signup/submit', this.selected)
             .then((response) => {
                 this.submitting = false;
-                console.log ('response');
                 this.showPage('confirmation');
             })
             .catch((error) => {

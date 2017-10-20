@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Mail;
 class SignupController extends Controller
 {
     public function submit (Request $request) {
-        $validateData = $request->validate([
+        $validatedData = $request->validate([
             'firstName' => 'required|max:20',
             'lastName' => 'required|max:20',
             'email' => 'required|max:40',
