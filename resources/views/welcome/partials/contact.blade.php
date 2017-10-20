@@ -68,17 +68,11 @@ Get started with <strong>GetRealT</strong>!
   <input class="input is-primary" type="number" required placeholder="Zip code" v-model="selected.zip">
 </div>
 
-<!--<div class="columns">
-  <div class="column">
-    <label class="label">State</label>
-  </div>
-  <div class="column">
-    <label class="label">GetRealT(Brokerage Bundle)</label>
-  </div>
-  <div class="column">
-    <label class="label">GetRealT(Brokerage Bundle)</label>
-  </div>
-</div>-->
+<div class="field">
+  <input id="switchOutlinedDefault" type="checkbox" name="switchOutlinedDefault" class="switch is-outlined" checked="checked">
+  <label for="switchOutlinedDefault">Switch outlined default</label>
+</div>
+
 
 <div class="field is-grouped is-pulled-right">
   <p class="control">
