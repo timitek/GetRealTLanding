@@ -69,10 +69,27 @@ Get started with <strong>GetRealT</strong>!
 </div>
 
 <div class="field">
-  <input id="switchOutlinedDefault" type="checkbox" name="switchOutlinedDefault" class="switch is-outlined" checked="checked">
-  <label for="switchOutlinedDefault">Switch outlined default</label>
+  <input id="switch1" type="checkbox" name="switch" class="switch is-thin is-rounded is-outlined is-rtl" checked="checked">
+  <label for="switch1">I require a domain for $14.95/annum</label>
 </div>
 
+<div class="field">
+  <input id="switch2" type="checkbox" name="switch" class="switch is-thin is-rounded is-outlined is-rtl" checked="checked">
+  <label for="switch2">I require hosting for $6.95/month</label>
+</div>
+
+<div class="field is-grouped">
+    <ul>
+      <div class="field">
+        <input id="switch3" type="checkbox" name="switch" class="switch is-thin is-rounded is-outlined is-rtl" checked="checked">
+        <label for="switch3">GetRETS Agent Bundle (Individual) for $21.00/month </label>
+      </div>
+      <div class="field">
+        <input id="switch4" type="checkbox" name="switch" class="switch is-thin is-rounded is-outlined is-rtl" checked="checked">
+        <label for="switch4">GetRETS Broker Bundle (Commercial) for $121.00/month</label>
+      </div>
+    </ul>
+</div>
 
 <div class="field is-grouped is-pulled-right">
   <p class="control">
