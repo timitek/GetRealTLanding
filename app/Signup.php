@@ -16,4 +16,28 @@ use Illuminate\Database\Eloquent\Model;
  {
      // We create a list of fillable columns for mass assignment using the ::create([]) method
      protected $fillable = ['firstName','lastName', 'email', 'phone', 'address', 'city', 'state', 'zip', 'theme'];
+
+     /**
+     * Return any images associated with this signup
+     *
+     * @return void
+     */
+    public function images()
+    {
+        return $this->hasMany(Image::class, 'signup_id', 'id');
+    }
+
+    /**
+     * Lookup a signup by e-mail case insensitive
+     *
+     * tinker: 
+     * App\Signup::ByEmail('Me@Earth.com')->get();
+     * 
+     * @param [type] $query
+     * @param [type] $email
+     * @return void
+     */
+    public function scopeByEmail($query, $email) {
+        return $query->where(\DB::raw('upper(email)'), strtoupper($email));
+    }
 }
