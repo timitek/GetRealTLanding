@@ -23,15 +23,14 @@ const app = new Vue({
     data: function() {
         return {
             selected: {
-                firstName: '',
-                lastName: '',
-                email: '',
-                phone: '',
-                address: '',
-                city: '',
-                state: '',
-                zip: '',
-                file: [],               
+                firstName: null,
+                lastName: null,
+                email: null,
+                phone: null,
+                address: null,
+                city: null,
+                state: null,
+                zip: null               
             },
 
             currentPage: 'contact',
