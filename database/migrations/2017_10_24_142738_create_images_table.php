@@ -3,9 +3,12 @@
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class CreateImagesTable extends Migration
 {
+    //use SoftDeletes;
+
     /**
      * Run the migrations.
      *
@@ -20,6 +23,7 @@ class CreateImagesTable extends Migration
             $table->string('filename', 500);
             $table->integer('signup_id');
             $table->timestamps();
+            //$table->softDeletes();
 
             $table->foreign('signup_id')->references('id')->on('signups');
         });        

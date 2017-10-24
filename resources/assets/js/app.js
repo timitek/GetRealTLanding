@@ -25,14 +25,14 @@ const app = new Vue({
             signup_id: null,
 
             selected: {
-                firstName: null,
-                lastName: null,
-                email: null,
-                phone: null,
-                address: null,
-                city: null,
-                state: null,
-                zip: null               
+                firstName: 'Tavleen',
+                lastName: 'Kaur',
+                email: 'null' + (Math.floor(Math.random() * 1000) + 1) + '@josh.com',
+                phone: '5017890987',
+                address: 'null',
+                city: 'Arkansas',
+                state: 'Arkansas',
+                zip: '72205'               
             },
 
             currentPage: 'contact',
@@ -62,7 +62,6 @@ const app = new Vue({
 
             lastImageName: null,
             images: [
-
             ],
         }
     },
@@ -143,7 +142,28 @@ const app = new Vue({
                 });
                     
             }
-        }    
+        },
+        
+        deleteImage: function (image) {
+            axios({
+                method: 'post',
+                url: '/api/signup/deleteImage',
+                data: {
+                    'id': image.id,
+                    'email': this.selected.email,
+                    'signup_id': this.signup_id,
+                }
+            })
+            .then((response) => {
+                this.submitting = false;
+                this.resetErrors();
+                image.id = null;
+            })
+            .catch((error) => {
+                this.submitting = false;
+                this.handleError(error.response.data);
+            });
+        },
     },
 
     mounted: function() {

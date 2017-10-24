@@ -70,6 +70,31 @@ class SignupController extends Controller
         return $image;
     }
 
+     /**
+     * Handle an image delete
+     *
+     * @param Request $request
+     * @return void
+     */
+    public function deleteImage(Request $request) {
+        $validatedData = $request->validate([
+            'id' => 'exists:images,id',
+            'signup_id' => 'exists:signups,id',
+            'email' => 'required|email|max:100',
+        ]);
+
+        $signup = Signup::ByEmail($validatedData['email'])->first();
+        if ($signup && $signup->id === (int)$validatedData['signup_id']) {
+
+            $img = Image::find((int)$validatedData['id']);
+
+            // Ensure that only this signup's images are deleted
+            if ((int)$img->signup_id === (int)$validatedData['signup_id']) {
+                $img->delete();
+            }
+        }
+    }
+
     /**
      * Test the e-mail with
      * http://localhost:8000/api/signup/testEmail

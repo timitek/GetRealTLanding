@@ -3,9 +3,12 @@
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class CreateSignupsTable extends Migration
 {
+    //use SoftDeletes;
+
     /**
      * Run the migrations.
      *
@@ -26,6 +29,8 @@ class CreateSignupsTable extends Migration
             $table->string("state", 100);
             $table->string("zip", 50);
             $table->string("theme", 20);
+            //$table->softDeletes();
+            
         });
     }
 
