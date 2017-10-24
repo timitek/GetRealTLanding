@@ -8,21 +8,25 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Mail\SignupSubmitted;
 use Illuminate\Support\Facades\Mail;
+use App\Signup;
 
 class SignupController extends Controller
 {
     public function submit (Request $request) {
         $validatedData = $request->validate([
-            'firstName' => 'required|max:20',
-            'lastName' => 'required|max:20',
-            'email' => 'required|max:40',
+            'firstName' => 'required|max:50',
+            'lastName' => 'required|max:50',
+            'email' => 'required|max:100',
             'phone' => 'required|max:12',
-            'address' => 'required|max:50',
-            'city' => 'required|max:20',
-            'state' => 'required|max:20',
-            'zip' => 'required|max:10',
+            'address' => 'required|max:100',
+            'city' => 'required|max:50',
+            'state' => 'required|max:50',
+            'zip' => 'required|max:50',
             'theme' => 'required|max:20'
         ]);
+
+        //Store it in the databaswe
+        signup::create($validatedData);
 
         /**
          * Mailable generated with
