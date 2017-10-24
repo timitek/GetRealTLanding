@@ -22,6 +22,8 @@ const app = new Vue({
 
     data: function() {
         return {
+            signup_id: null,
+
             selected: {
                 firstName: null,
                 lastName: null,
@@ -57,6 +59,11 @@ const app = new Vue({
                 'united',
                 'yeti'
             ],
+
+            lastImageName: null,
+            images: [
+
+            ],
         }
     },
 
@@ -89,10 +96,6 @@ const app = new Vue({
             }            
         },
 
-        selectFile: function (file) {
-            this.selected.file = file;
-        },
-
         submit: function () {
             this.resetErrors();
             this.submitting = true;
@@ -100,13 +103,47 @@ const app = new Vue({
             axios.post('/api/signup/submit', this.selected)
             .then((response) => {
                 this.submitting = false;
-                this.showPage('confirmation');
+                this.resetErrors();
+                this.signup_id = response.data.id;
+                this.showPage('images');
             })
             .catch((error) => {
                 this.submitting = false;
                 this.handleError(error.response.data);
             });
-        }
+        },
+
+        uploadImage: function () {
+            var image = null;
+            var imageInput = document.getElementById('imageToUpload');
+            if (imageInput && imageInput.files && imageInput.files[0]) {
+                image = imageInput.files[0];
+
+                this.lastImageName = image.name;
+
+                var formData = new FormData();
+                formData.append('image', image);
+                formData.append('type', 'default'); // This can be customized
+                formData.append('signup_id', this.signup_id);
+                formData.append('email', this.selected.email); // Use the email address as a sort of api security key
+                
+                axios({
+                    method: 'post',
+                    url: '/api/signup/uploadImage',
+                    data: formData
+                })
+                .then((response) => {
+                    this.submitting = false;
+                    this.resetErrors();
+                    this.images.push(response.data);
+                })
+                .catch((error) => {
+                    this.submitting = false;
+                    this.handleError(error.response.data);
+                });
+                    
+            }
+        }    
     },
 
     mounted: function() {
