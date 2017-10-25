@@ -38,8 +38,7 @@ const app = new Vue({
             options: {
                 domain: false,
                 hosting: false,
-                agent: false,
-                broker: false
+                agent: false
             },
 
             currentPage: 'contact',
@@ -70,6 +69,28 @@ const app = new Vue({
             lastImageName: null,
             images: [
             ],
+        }
+    },
+
+    computed: {
+        price: function() {
+            var price = 0;
+            if (this.options.domain) {
+                price += 14.95;
+            }
+            if (this.options.hosting) {
+                price += 6.95;
+            }
+            price += (this.options.agent ? 21 : 121);
+            return price;
+        },
+        broker: {
+            get: function () {
+                return !this.options.agent;
+            },
+            set: function (value) {
+                this.options.agent = !value;
+            }
         }
     },
 
@@ -170,11 +191,7 @@ const app = new Vue({
                 this.submitting = false;
                 this.handleError(error.response.data);
             });
-        },
-
-        handleClick: function() {
-
-        },
+        }
     },
 
     mounted: function() {
