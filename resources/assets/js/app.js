@@ -35,6 +35,13 @@ const app = new Vue({
                 zip: '72205'               
             },
 
+            options: {
+                domain: false,
+                hosting: false,
+                agent: false,
+                broker: false
+            },
+
             currentPage: 'contact',
 
             errorMessage: null,
@@ -163,6 +170,10 @@ const app = new Vue({
                 this.submitting = false;
                 this.handleError(error.response.data);
             });
+        },
+
+        handleClick: function() {
+
         },
     },
 

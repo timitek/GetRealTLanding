@@ -12,7 +12,7 @@ Choose a theme:
 
 <div class="field is-grouped is-pulled-right">
     <div class="control">
-        <a class="button is-warning is-outlined is-medium" v-on:click="showPage('contact')">
+        <a class="button is-warning is-outlined is-medium" v-on:click="showPage('products')">
         Back
         </a>
     </div>

@@ -5,6 +5,9 @@
 <div v-if="currentPage === 'contact'">
     @include('welcome.partials.contact')
 </div>
+<div v-if="currentPage === 'products'">
+    @include('welcome.partials.products')
+</div>
 <div v-if="currentPage === 'theme'">
     @include('welcome.partials.theme')
 </div>

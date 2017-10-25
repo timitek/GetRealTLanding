@@ -1,5 +1,5 @@
 <h1 class="title">
-Confirm your details:
+Here is how your file looks like:
 </h1>
 
 <div class="columns">
@@ -37,6 +37,6 @@ Confirm your details:
 <div class="field is-grouped is-pulled-right">
   <div class="control">
       <a class="button is-warning is-outlined is-medium" v-on:click="showPage('theme')">Back</a>
-      <a class="button is-primary is-outlined is-medium" v-on:click="submit()" :disabled="submitting">Submit</a>
+      <a class="button is-primary is-outlined is-medium" v-on:click="submit()" :disabled="submitting">Confirm</a>
   </div>
 </div>
