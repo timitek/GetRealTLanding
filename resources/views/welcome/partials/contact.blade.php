@@ -63,10 +63,12 @@ Get started with <strong>GetRealT</strong>!
     </div>
   </div>
 </div>
+
 <div>
   <label class="label">Zip</label>
   <input class="input is-primary" type="number" required placeholder="Zip code" v-model="selected.zip">
 </div>
+<br />
 
 <div class="field is-grouped is-pulled-right">
   <p class="control">

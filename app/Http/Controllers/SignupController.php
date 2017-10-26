@@ -36,7 +36,7 @@ class SignupController extends Controller
          * Mailable generated with
          * php artisan make:mail SignupSubmitted --markdown=emails.signup.submitted
          */
-         Mail::to("me@earth.com")->send(new SignupSubmitted($validatedData));
+         //Mail::to("me@earth.com")->send(new SignupSubmitted($validatedData));
 
          return $signup;
     }
