@@ -23,7 +23,10 @@ class SignupController extends Controller
             'city' => 'required|max:50',
             'state' => 'required|max:50',
             'zip' => 'required|max:50',
-            'theme' => 'required|max:20'
+            'theme' => 'required|max:20',
+            'domain' => 'required|max:20',
+            'hosting' => 'required|max:20',
+            'agent' => 'required|max:20',
         ]);
 
         //Store it in the databaswe
@@ -102,16 +105,8 @@ class SignupController extends Controller
      * @return void
      */
      public function testEmail() {
-        return new SignupSubmitted([
-            'firstName' => '',
-            'lastName' => '',
-            'email' => '',
-            'phone' => '',
-            'address' => '',
-            'city' => '',
-            'state' => '',
-            'zip' => '',
-            'theme' => ''
-        ]);
+        $model = Signup::with('Images')->first()->toArray();
+        //dd($model);
+        return new SignupSubmitted($model);
     }
 }

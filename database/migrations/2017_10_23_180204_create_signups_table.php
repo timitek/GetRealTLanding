@@ -29,6 +29,9 @@ class CreateSignupsTable extends Migration
             $table->string("state", 100);
             $table->string("zip", 50);
             $table->string("theme", 20);
+            $table->string("domain", 20);
+            $table->string("hosting", 20);
+            $table->string("agent", 20);
             //$table->softDeletes();
             
         });

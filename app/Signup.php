@@ -15,7 +15,7 @@ use Illuminate\Database\Eloquent\Model;
  class Signup extends Model
  {
      // We create a list of fillable columns for mass assignment using the ::create([]) method
-     protected $fillable = ['firstName','lastName', 'email', 'phone', 'address', 'city', 'state', 'zip', 'theme'];
+     protected $fillable = ['firstName','lastName', 'email', 'phone', 'address', 'city', 'state', 'zip', 'theme', 'domain', 'hosting', 'agent'];
 
      /**
      * Return any images associated with this signup

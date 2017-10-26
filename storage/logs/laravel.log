@@ -322,3 +322,628 @@ Content-Transfer-Encoding: quoted-printable
 
 © 2017 Laravel. All rights reserved.
   
+[2017-10-25 22:05:27] local.DEBUG: Message-ID: <99b8a6fbdf95a019d0053ae917d7e415@landing.dev>
+Date: Wed, 25 Oct 2017 22:05:27 +0000
+Subject: Signup Submitted
+From: Example <hello@example.com>
+To: me@earth.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1508969127_bf16808709451ba5f0509ca3e7dbeabf_=_"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; color: #74787E; height: 100%; hyphens: auto; line-height: 1.4; margin: 0; -moz-hyphens: auto; -ms-word-break: break-all; width: 100% !important; -webkit-hyphens: auto; -webkit-text-size-adjust: none; word-break: break-word;">
+    <style>
+        @media  only screen and (max-width: 600px) {
+            .inner-body {
+                width: 100% !important;
+            }
+
+            .footer {
+                width: 100% !important;
+            }
+        }
+
+        @media  only screen and (max-width: 500px) {
+            .button {
+                width: 100% !important;
+            }
+        }
+    </style>
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;"><tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+                <table class="content" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td class="header" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 25px 0; text-align: center;">
+        <a href="http://localhost" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #bbbfc3; font-size: 19px; font-weight: bold; text-decoration: none; text-shadow: 0 1px 0 white;">
+            Laravel
+        </a>
+    </td>
+</tr>
+<!-- Email Body --><tr>
+<td class="body" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; border-bottom: 1px solid #EDEFF2; border-top: 1px solid #EDEFF2; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+                            <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; margin: 0 auto; padding: 0; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<!-- Body content --><tr>
+<td class="content-cell" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+                                        <h1 style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #2F3133; font-size: 19px; font-weight: bold; margin-top: 0; text-align: left;">New Signup</h1>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">A new user has signed up for your service</p>
+<div class="table" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 30px auto; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<thead style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;"><tr>
+<th style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-bottom: 1px solid #EDEFF2; padding-bottom: 8px; margin: 0;">Field</th>
+<th style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-bottom: 1px solid #EDEFF2; padding-bottom: 8px; margin: 0; text-align: center;">Value</th>
+</tr></thead>
+<tbody style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Fisrt Name</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">Tavleen</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Last Name</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">Kaur</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Email</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">null178@josh.com</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Phone</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">5017890987</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Address</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">null</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">City</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">Arkansas</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">State</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">Arkansas</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Zip</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">72205</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Theme</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">cosmo</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Thanks,<br>
+Laravel</p>
+
+                                        
+                                    </td>
+                                </tr>
+</table>
+</td>
+                    </tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0 auto; padding: 0; text-align: center; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;"><tr>
+<td class="content-cell" align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+                    <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; line-height: 1.5em; margin-top: 0; color: #AEAEAE; font-size: 12px; text-align: center;">© 2017 Laravel. All rights reserved.</p>
+                </td>
+            </tr></table>
+</td>
+</tr>
+</table>
+</td>
+        </tr></table>
+</body>
+</html>
+
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+[Laravel](http://localhost)
+
+# New Signup
+
+ 
+
+ A new user has signed up for your service
+
+ 
+
+ | Field         | Value         |
+
+ | ------------- |:-------------:|
+
+ | Fisrt Name    | Tavleen |
+
+ | Last Name     | Kaur |
+
+ | Email         | null178@josh.com |
+
+ | Phone         | 5017890987 |
+
+ | Address       | null |
+
+ | City          | Arkansas |
+
+ | State         | Arkansas |
+
+ | Zip           | 72205 |
+
+ | Theme         | cosmo |
+ 
+
+ Thanks,
+
+ Laravel
+
+© 2017 Laravel. All rights reserved.
+  
+[2017-10-25 22:41:56] local.ERROR: Undefined variable: images (View: C:\projects\GetRealTLanding\resources\views\emails\signup\submitted.blade.php) {"exception":"[object] (ErrorException(code: 0): Undefined variable: images (View: C:\\projects\\GetRealTLanding\esources\\views\\emails\\signup\\submitted.blade.php) at C:\\projects\\GetRealTLanding\\storage\\framework\\views\\a1c9db86f753ec1bbd9c3e3c34470214ae6a19c7.php:29, ErrorException(code: 0): Undefined variable: images at C:\\projects\\GetRealTLanding\\storage\\framework\\views\\a1c9db86f753ec1bbd9c3e3c34470214ae6a19c7.php:29)
+[stacktrace]
+#0 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\projects\\\\Get...', Array)
+#2 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(137): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\projects\\\\Get...', Array)
+#3 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(120): Illuminate\\View\\View->getContents()
+#4 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(85): Illuminate\\View\\View->renderContents()
+#5 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Markdown.php(61): Illuminate\\View\\View->render()
+#6 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(217): Illuminate\\Mail\\Markdown->render('emails.signup.s...', Array)
+#7 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(189): Illuminate\\Mail\\Mailable->buildMarkdownView()
+#8 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(119): Illuminate\\Mail\\Mailable->buildView()
+#9 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(250): Illuminate\\Mail\\Mailable->send(Object(Illuminate\\Mail\\Mailer))
+#10 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(205): Illuminate\\Mail\\Mailer->sendMailable(Object(App\\Mail\\SignupSubmitted))
+#11 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\PendingMail.php(99): Illuminate\\Mail\\Mailer->send(Object(App\\Mail\\SignupSubmitted))
+#12 C:\\projects\\GetRealTLanding\\app\\Http\\Controllers\\SignupController.php(39): Illuminate\\Mail\\PendingMail->send(Object(App\\Mail\\SignupSubmitted))
+#13 [internal function]: App\\Http\\Controllers\\SignupController->submit(Object(Illuminate\\Http\\Request))
+#14 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): call_user_func_array(Array, Array)
+#15 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('submit', Array)
+#16 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(212): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\SignupController), 'submit')
+#17 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(169): Illuminate\\Routing\\Route->runController()
+#18 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(645): Illuminate\\Routing\\Route->run()
+#19 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 60, '1')
+#25 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(647): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#28 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(622): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#29 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(588): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#30 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(577): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#31 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#32 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\projects\\GetRealTLanding\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#50 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#51 C:\\projects\\GetRealTLanding\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#52 {main}
+"} 
+[2017-10-25 23:02:15] local.ERROR: Undefined variable: images (View: C:\projects\GetRealTLanding\resources\views\emails\signup\submitted.blade.php) {"exception":"[object] (ErrorException(code: 0): Undefined variable: images (View: C:\\projects\\GetRealTLanding\esources\\views\\emails\\signup\\submitted.blade.php) at C:\\projects\\GetRealTLanding\\storage\\framework\\views\\a1c9db86f753ec1bbd9c3e3c34470214ae6a19c7.php:29, ErrorException(code: 0): Undefined variable: images at C:\\projects\\GetRealTLanding\\storage\\framework\\views\\a1c9db86f753ec1bbd9c3e3c34470214ae6a19c7.php:29)
+[stacktrace]
+#0 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\projects\\\\Get...', Array)
+#2 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(137): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\projects\\\\Get...', Array)
+#3 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(120): Illuminate\\View\\View->getContents()
+#4 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(85): Illuminate\\View\\View->renderContents()
+#5 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Markdown.php(61): Illuminate\\View\\View->render()
+#6 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(217): Illuminate\\Mail\\Markdown->render('emails.signup.s...', Array)
+#7 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(189): Illuminate\\Mail\\Mailable->buildMarkdownView()
+#8 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(119): Illuminate\\Mail\\Mailable->buildView()
+#9 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(250): Illuminate\\Mail\\Mailable->send(Object(Illuminate\\Mail\\Mailer))
+#10 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(205): Illuminate\\Mail\\Mailer->sendMailable(Object(App\\Mail\\SignupSubmitted))
+#11 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\PendingMail.php(99): Illuminate\\Mail\\Mailer->send(Object(App\\Mail\\SignupSubmitted))
+#12 C:\\projects\\GetRealTLanding\\app\\Http\\Controllers\\SignupController.php(39): Illuminate\\Mail\\PendingMail->send(Object(App\\Mail\\SignupSubmitted))
+#13 [internal function]: App\\Http\\Controllers\\SignupController->submit(Object(Illuminate\\Http\\Request))
+#14 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): call_user_func_array(Array, Array)
+#15 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('submit', Array)
+#16 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(212): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\SignupController), 'submit')
+#17 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(169): Illuminate\\Routing\\Route->runController()
+#18 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(645): Illuminate\\Routing\\Route->run()
+#19 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 60, '1')
+#25 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(647): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#28 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(622): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#29 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(588): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#30 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(577): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#31 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#32 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\projects\\GetRealTLanding\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#50 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#51 C:\\projects\\GetRealTLanding\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#52 {main}
+"} 
+[2017-10-25 23:10:08] local.ERROR: Undefined variable: images (View: C:\projects\GetRealTLanding\resources\views\emails\signup\submitted.blade.php) {"exception":"[object] (ErrorException(code: 0): Undefined variable: images (View: C:\\projects\\GetRealTLanding\esources\\views\\emails\\signup\\submitted.blade.php) at C:\\projects\\GetRealTLanding\\storage\\framework\\views\\a1c9db86f753ec1bbd9c3e3c34470214ae6a19c7.php:29, ErrorException(code: 0): Undefined variable: images at C:\\projects\\GetRealTLanding\\storage\\framework\\views\\a1c9db86f753ec1bbd9c3e3c34470214ae6a19c7.php:29)
+[stacktrace]
+#0 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\projects\\\\Get...', Array)
+#2 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(137): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\projects\\\\Get...', Array)
+#3 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(120): Illuminate\\View\\View->getContents()
+#4 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(85): Illuminate\\View\\View->renderContents()
+#5 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Markdown.php(61): Illuminate\\View\\View->render()
+#6 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(217): Illuminate\\Mail\\Markdown->render('emails.signup.s...', Array)
+#7 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(189): Illuminate\\Mail\\Mailable->buildMarkdownView()
+#8 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(119): Illuminate\\Mail\\Mailable->buildView()
+#9 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(250): Illuminate\\Mail\\Mailable->send(Object(Illuminate\\Mail\\Mailer))
+#10 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(205): Illuminate\\Mail\\Mailer->sendMailable(Object(App\\Mail\\SignupSubmitted))
+#11 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\PendingMail.php(99): Illuminate\\Mail\\Mailer->send(Object(App\\Mail\\SignupSubmitted))
+#12 C:\\projects\\GetRealTLanding\\app\\Http\\Controllers\\SignupController.php(39): Illuminate\\Mail\\PendingMail->send(Object(App\\Mail\\SignupSubmitted))
+#13 [internal function]: App\\Http\\Controllers\\SignupController->submit(Object(Illuminate\\Http\\Request))
+#14 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): call_user_func_array(Array, Array)
+#15 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('submit', Array)
+#16 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(212): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\SignupController), 'submit')
+#17 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(169): Illuminate\\Routing\\Route->runController()
+#18 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(645): Illuminate\\Routing\\Route->run()
+#19 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 60, '1')
+#25 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(647): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#28 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(622): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#29 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(588): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#30 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(577): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#31 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#32 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\projects\\GetRealTLanding\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#50 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#51 C:\\projects\\GetRealTLanding\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#52 {main}
+"} 
+[2017-10-25 23:16:55] local.ERROR: Undefined variable: images (View: C:\projects\GetRealTLanding\resources\views\emails\signup\submitted.blade.php) {"exception":"[object] (ErrorException(code: 0): Undefined variable: images (View: C:\\projects\\GetRealTLanding\esources\\views\\emails\\signup\\submitted.blade.php) at C:\\projects\\GetRealTLanding\\storage\\framework\\views\\a1c9db86f753ec1bbd9c3e3c34470214ae6a19c7.php:29, ErrorException(code: 0): Undefined variable: images at C:\\projects\\GetRealTLanding\\storage\\framework\\views\\a1c9db86f753ec1bbd9c3e3c34470214ae6a19c7.php:29)
+[stacktrace]
+#0 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\projects\\\\Get...', Array)
+#2 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(137): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\projects\\\\Get...', Array)
+#3 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(120): Illuminate\\View\\View->getContents()
+#4 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(85): Illuminate\\View\\View->renderContents()
+#5 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Markdown.php(61): Illuminate\\View\\View->render()
+#6 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(217): Illuminate\\Mail\\Markdown->render('emails.signup.s...', Array)
+#7 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(189): Illuminate\\Mail\\Mailable->buildMarkdownView()
+#8 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(119): Illuminate\\Mail\\Mailable->buildView()
+#9 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(250): Illuminate\\Mail\\Mailable->send(Object(Illuminate\\Mail\\Mailer))
+#10 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(205): Illuminate\\Mail\\Mailer->sendMailable(Object(App\\Mail\\SignupSubmitted))
+#11 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\PendingMail.php(99): Illuminate\\Mail\\Mailer->send(Object(App\\Mail\\SignupSubmitted))
+#12 C:\\projects\\GetRealTLanding\\app\\Http\\Controllers\\SignupController.php(39): Illuminate\\Mail\\PendingMail->send(Object(App\\Mail\\SignupSubmitted))
+#13 [internal function]: App\\Http\\Controllers\\SignupController->submit(Object(Illuminate\\Http\\Request))
+#14 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): call_user_func_array(Array, Array)
+#15 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('submit', Array)
+#16 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(212): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\SignupController), 'submit')
+#17 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(169): Illuminate\\Routing\\Route->runController()
+#18 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(645): Illuminate\\Routing\\Route->run()
+#19 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 60, '1')
+#25 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(647): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#28 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(622): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#29 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(588): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#30 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(577): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#31 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#32 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\projects\\GetRealTLanding\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#50 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#51 C:\\projects\\GetRealTLanding\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#52 {main}
+"} 
+[2017-10-25 23:18:45] local.ERROR: Undefined variable: images (View: C:\projects\GetRealTLanding\resources\views\emails\signup\submitted.blade.php) {"exception":"[object] (ErrorException(code: 0): Undefined variable: images (View: C:\\projects\\GetRealTLanding\esources\\views\\emails\\signup\\submitted.blade.php) at C:\\projects\\GetRealTLanding\\storage\\framework\\views\\a1c9db86f753ec1bbd9c3e3c34470214ae6a19c7.php:29, ErrorException(code: 0): Undefined variable: images at C:\\projects\\GetRealTLanding\\storage\\framework\\views\\a1c9db86f753ec1bbd9c3e3c34470214ae6a19c7.php:29)
+[stacktrace]
+#0 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\projects\\\\Get...', Array)
+#2 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(137): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\projects\\\\Get...', Array)
+#3 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(120): Illuminate\\View\\View->getContents()
+#4 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(85): Illuminate\\View\\View->renderContents()
+#5 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Markdown.php(61): Illuminate\\View\\View->render()
+#6 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(217): Illuminate\\Mail\\Markdown->render('emails.signup.s...', Array)
+#7 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(189): Illuminate\\Mail\\Mailable->buildMarkdownView()
+#8 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(119): Illuminate\\Mail\\Mailable->buildView()
+#9 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(250): Illuminate\\Mail\\Mailable->send(Object(Illuminate\\Mail\\Mailer))
+#10 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(205): Illuminate\\Mail\\Mailer->sendMailable(Object(App\\Mail\\SignupSubmitted))
+#11 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\PendingMail.php(99): Illuminate\\Mail\\Mailer->send(Object(App\\Mail\\SignupSubmitted))
+#12 C:\\projects\\GetRealTLanding\\app\\Http\\Controllers\\SignupController.php(39): Illuminate\\Mail\\PendingMail->send(Object(App\\Mail\\SignupSubmitted))
+#13 [internal function]: App\\Http\\Controllers\\SignupController->submit(Object(Illuminate\\Http\\Request))
+#14 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): call_user_func_array(Array, Array)
+#15 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('submit', Array)
+#16 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(212): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\SignupController), 'submit')
+#17 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(169): Illuminate\\Routing\\Route->runController()
+#18 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(645): Illuminate\\Routing\\Route->run()
+#19 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 60, '1')
+#25 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(647): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#28 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(622): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#29 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(588): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#30 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(577): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#31 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#32 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\projects\\GetRealTLanding\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#50 C:\\projects\\GetRealTLanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#51 C:\\projects\\GetRealTLanding\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#52 {main}
+"} 
+[2017-10-25 23:21:18] local.DEBUG: Message-ID: <d9e01694ca7a1a41cf8f98876914c08a@landing.dev>
+Date: Wed, 25 Oct 2017 23:21:18 +0000
+Subject: Signup Submitted
+From: Example <hello@example.com>
+To: me@earth.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1508973678_7e51250d17588c2fdbf0ed78b7fa182d_=_"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; color: #74787E; height: 100%; hyphens: auto; line-height: 1.4; margin: 0; -moz-hyphens: auto; -ms-word-break: break-all; width: 100% !important; -webkit-hyphens: auto; -webkit-text-size-adjust: none; word-break: break-word;">
+    <style>
+        @media  only screen and (max-width: 600px) {
+            .inner-body {
+                width: 100% !important;
+            }
+
+            .footer {
+                width: 100% !important;
+            }
+        }
+
+        @media  only screen and (max-width: 500px) {
+            .button {
+                width: 100% !important;
+            }
+        }
+    </style>
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;"><tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+                <table class="content" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td class="header" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 25px 0; text-align: center;">
+        <a href="http://localhost" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #bbbfc3; font-size: 19px; font-weight: bold; text-decoration: none; text-shadow: 0 1px 0 white;">
+            Laravel
+        </a>
+    </td>
+</tr>
+<!-- Email Body --><tr>
+<td class="body" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; border-bottom: 1px solid #EDEFF2; border-top: 1px solid #EDEFF2; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+                            <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; margin: 0 auto; padding: 0; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<!-- Body content --><tr>
+<td class="content-cell" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+                                        <h1 style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #2F3133; font-size: 19px; font-weight: bold; margin-top: 0; text-align: left;">New Signup</h1>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">A new user has signed up for your service</p>
+<h1 style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #2F3133; font-size: 19px; font-weight: bold; margin-top: 0; text-align: left;">Signup Details</h1>
+<div class="table" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 30px auto; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<thead style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;"><tr>
+<th style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-bottom: 1px solid #EDEFF2; padding-bottom: 8px; margin: 0;">Field</th>
+<th style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-bottom: 1px solid #EDEFF2; padding-bottom: 8px; margin: 0; text-align: center;">Value</th>
+</tr></thead>
+<tbody style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">First Name</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">Tavleen</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Last Name</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">Kaur</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Email</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">null385@josh.com</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Phone</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">5017890987</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Address</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">null</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">City</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">El Dorado</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">State</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">Arkansas</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Zip</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">72205</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Theme</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">cerulean</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Domain</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">1</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Hosting</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">1</td>
+</tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0;">Agent</td>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 15px; line-height: 18px; padding: 10px 0; margin: 0; text-align: center;">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Thanks,<br>
+Laravel</p>
+
+                                        
+                                    </td>
+                                </tr>
+</table>
+</td>
+                    </tr>
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0 auto; padding: 0; text-align: center; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;"><tr>
+<td class="content-cell" align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+                    <p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; line-height: 1.5em; margin-top: 0; color: #AEAEAE; font-size: 12px; text-align: center;">© 2017 Laravel. All rights reserved.</p>
+                </td>
+            </tr></table>
+</td>
+</tr>
+</table>
+</td>
+        </tr></table>
+</body>
+</html>
+
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+[Laravel](http://localhost)
+
+# New Signup
+
+ 
+
+ A new user has signed up for your service
+
+ 
+
+ # Signup Details
+
+ | Field         | Value         |
+
+ | ------------- |:-------------:|
+
+ | First Name    | Tavleen |
+
+ | Last Name     | Kaur |
+
+ | Email         | null385@josh.com |
+
+ | Phone         | 5017890987 |
+
+ | Address       | null |
+
+ | City          | El Dorado |
+
+ | State         | Arkansas |
+
+ | Zip           | 72205 |
+
+ | Theme         | cerulean |
+
+ | Domain        | 1 |
+
+ | Hosting       | 1 |
+
+ | Agent         | 1 |
+ 
+
+ Thanks,
+
+ Laravel
+
+© 2017 Laravel. All rights reserved.
+  

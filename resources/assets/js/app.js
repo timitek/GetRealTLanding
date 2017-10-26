@@ -30,15 +30,12 @@ const app = new Vue({
                 email: 'null' + (Math.floor(Math.random() * 1000) + 1) + '@josh.com',
                 phone: '5017890987',
                 address: 'null',
-                city: 'Arkansas',
+                city: 'El Dorado',
                 state: 'Arkansas',
-                zip: '72205'               
-            },
-
-            options: {
+                zip: '72205',
                 domain: false,
                 hosting: false,
-                agent: false
+                agent: false               
             },
 
             currentPage: 'contact',
@@ -73,24 +70,28 @@ const app = new Vue({
     },
 
     computed: {
-        price: function() {
-            var price = 0;
-            if (this.options.domain) {
-                price += 14.95;
-            }
-            if (this.options.hosting) {
-                price += 6.95;
-            }
-            price += (this.options.agent ? 21 : 121);
-            return price;
-        },
         broker: {
             get: function () {
-                return !this.options.agent;
+                return !this.selected.agent;
             },
             set: function (value) {
-                this.options.agent = !value;
+                this.selected.agent = !value;
             }
+        },
+        annualPrice: function() {
+            var price = 0;
+            if (this.selected.domain) {
+                price += 14.95;
+            }
+            return price;
+        },
+        monthlyPrice: function() {
+            var price = 0;
+            if (this.selected.hosting) {
+                price += 6.95;
+            }
+            price += (this.selected.agent ? 21.00 : 121.00);
+            return price;
         }
     },
 
