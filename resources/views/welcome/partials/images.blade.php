@@ -18,12 +18,13 @@
   </label>
 </div>
 
-<div class="field is-grouped">
-  <div class="control">
-    <button class="button is-link" v-on:click="showPage('confirmation')" :disabled="submitting">Done</button>
-  </div>
+<div class="columns is-multiline">
+    <div class="column is-one-quarter" v-for="image in images" v-if="image.id">
+        <button class="delete is-pulled-right" v-on:click="deleteImage(image)"></button>
+        <img :src="'/images/' +  image.filename" 
+            class="img-theme-preview">
+    </div>
 </div>
-
 
 <div class="notification is-danger" v-if="errorMessage">
     <strong v-text="errorMessage"></strong>
@@ -32,9 +33,8 @@
     </ul>
 </div>
 
-<div class="columns is-multiline">
-    <div class="column is-one-quarter" v-for="image in images">
-        <img :src="'/images/' +  image.filename" 
-            class="img-theme-preview">
-    </div>
+<div class="field is-grouped">
+  <div class="control">
+    <button class="button is-link" v-on:click="showPage('confirmation')" :disabled="submitting">Done</button>
+  </div>
 </div>

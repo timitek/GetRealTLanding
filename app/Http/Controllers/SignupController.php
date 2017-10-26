@@ -23,7 +23,10 @@ class SignupController extends Controller
             'city' => 'required|max:50',
             'state' => 'required|max:50',
             'zip' => 'required|max:50',
-            'theme' => 'required|max:20'
+            'theme' => 'required|max:20',
+            'domain' => 'required|max:20',
+            'hosting' => 'required|max:20',
+            'agent' => 'required|max:20',
         ]);
 
         //Store it in the databaswe
@@ -33,7 +36,7 @@ class SignupController extends Controller
          * Mailable generated with
          * php artisan make:mail SignupSubmitted --markdown=emails.signup.submitted
          */
-         Mail::to("me@earth.com")->send(new SignupSubmitted($validatedData));
+         //Mail::to("me@earth.com")->send(new SignupSubmitted($validatedData));
 
          return $signup;
     }
@@ -70,6 +73,31 @@ class SignupController extends Controller
         return $image;
     }
 
+     /**
+     * Handle an image delete
+     *
+     * @param Request $request
+     * @return void
+     */
+    public function deleteImage(Request $request) {
+        $validatedData = $request->validate([
+            'id' => 'exists:images,id',
+            'signup_id' => 'exists:signups,id',
+            'email' => 'required|email|max:100',
+        ]);
+
+        $signup = Signup::ByEmail($validatedData['email'])->first();
+        if ($signup && $signup->id === (int)$validatedData['signup_id']) {
+
+            $img = Image::find((int)$validatedData['id']);
+
+            // Ensure that only this signup's images are deleted
+            if ((int)$img->signup_id === (int)$validatedData['signup_id']) {
+                $img->delete();
+            }
+        }
+    }
+
     /**
      * Test the e-mail with
      * http://localhost:8000/api/signup/testEmail
@@ -77,16 +105,8 @@ class SignupController extends Controller
      * @return void
      */
      public function testEmail() {
-        return new SignupSubmitted([
-            'firstName' => '',
-            'lastName' => '',
-            'email' => '',
-            'phone' => '',
-            'address' => '',
-            'city' => '',
-            'state' => '',
-            'zip' => '',
-            'theme' => ''
-        ]);
+        $model = Signup::with('Images')->first()->toArray();
+        //dd($model);
+        return new SignupSubmitted($model);
     }
 }

@@ -63,26 +63,16 @@ Get started with <strong>GetRealT</strong>!
     </div>
   </div>
 </div>
+
 <div>
   <label class="label">Zip</label>
   <input class="input is-primary" type="number" required placeholder="Zip code" v-model="selected.zip">
 </div>
-
-<!--<div class="columns">
-  <div class="column">
-    <label class="label">State</label>
-  </div>
-  <div class="column">
-    <label class="label">GetRealT(Brokerage Bundle)</label>
-  </div>
-  <div class="column">
-    <label class="label">GetRealT(Brokerage Bundle)</label>
-  </div>
-</div>-->
+<br />
 
 <div class="field is-grouped is-pulled-right">
   <p class="control">
-    <a class="button is-primary is-outlined is-medium" v-on:click="showPage('theme')">
+    <a class="button is-primary is-outlined is-medium" v-on:click="showPage('products')">
       Proceed
     </a>
   </p>

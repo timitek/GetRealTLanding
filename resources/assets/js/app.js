@@ -25,14 +25,17 @@ const app = new Vue({
             signup_id: null,
 
             selected: {
-                firstName: null,
-                lastName: null,
-                email: null,
-                phone: null,
-                address: null,
-                city: null,
-                state: null,
-                zip: null               
+                firstName: 'Tavleen',
+                lastName: 'Kaur',
+                email: 'null' + (Math.floor(Math.random() * 1000) + 1) + '@josh.com',
+                phone: '5017890987',
+                address: 'null',
+                city: 'El Dorado',
+                state: 'Arkansas',
+                zip: '72205',
+                domain: false,
+                hosting: false,
+                agent: false               
             },
 
             currentPage: 'contact',
@@ -62,8 +65,33 @@ const app = new Vue({
 
             lastImageName: null,
             images: [
-
             ],
+        }
+    },
+
+    computed: {
+        broker: {
+            get: function () {
+                return !this.selected.agent;
+            },
+            set: function (value) {
+                this.selected.agent = !value;
+            }
+        },
+        annualPrice: function() {
+            var price = 0;
+            if (this.selected.domain) {
+                price += 14.95;
+            }
+            return price;
+        },
+        monthlyPrice: function() {
+            var price = 0;
+            if (this.selected.hosting) {
+                price += 6.95;
+            }
+            price += (this.selected.agent ? 21.00 : 121.00);
+            return price;
         }
     },
 
@@ -143,7 +171,28 @@ const app = new Vue({
                 });
                     
             }
-        }    
+        },
+        
+        deleteImage: function (image) {
+            axios({
+                method: 'post',
+                url: '/api/signup/deleteImage',
+                data: {
+                    'id': image.id,
+                    'email': this.selected.email,
+                    'signup_id': this.signup_id,
+                }
+            })
+            .then((response) => {
+                this.submitting = false;
+                this.resetErrors();
+                image.id = null;
+            })
+            .catch((error) => {
+                this.submitting = false;
+                this.handleError(error.response.data);
+            });
+        }
     },
 
     mounted: function() {
