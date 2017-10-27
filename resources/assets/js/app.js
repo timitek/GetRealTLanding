@@ -66,6 +66,7 @@ const app = new Vue({
             lastImageName: null,
             images: [
             ],
+            imageType: null
         }
     },
 
@@ -151,7 +152,7 @@ const app = new Vue({
 
                 var formData = new FormData();
                 formData.append('image', image);
-                formData.append('type', 'default'); // This can be customized
+                formData.append('type', this.imageType); // This can be customized
                 formData.append('signup_id', this.signup_id);
                 formData.append('email', this.selected.email); // Use the email address as a sort of api security key
                 
