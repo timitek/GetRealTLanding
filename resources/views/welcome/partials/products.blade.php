@@ -5,15 +5,6 @@ Let's get started with your website.
 Which of these do you require?
 </p>
 
-<p>
-domain = @{{selected.domain}}<br />
-hosting = @{{selected.hosting}}<br />
-agent = @{{selected.agent}}<br />
-broker = @{{broker}}<br />
-annualPrice = @{{annualPrice}}<br />
-monthlyPrice = @{{monthlyPrice}}<br />
-</p><br />
-
 <div class="columns">
     <div class="column is-half">
         <div class="field">
@@ -42,9 +33,9 @@ monthlyPrice = @{{monthlyPrice}}<br />
     </div>
     <div class="column is-half">
         <p>
-            annual Price = @{{annualPrice}}<br />
-            monthly Price = @{{monthlyPrice}}<br />
-            total Price due at checkout = @{{annualPrice + monthlyPrice}}<br />
+            Annual Price = @{{annualPrice}}<br />
+            Monthly Price = @{{monthlyPrice}}<br />
+            Price due upon Website delivery = @{{annualPrice + monthlyPrice}}<br />
         </p><br />
     </div>
 </div>
