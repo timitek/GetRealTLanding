@@ -17,24 +17,24 @@ monthlyPrice = @{{monthlyPrice}}<br />
 <div class="columns">
     <div class="column is-half">
         <div class="field">
-            <input id="domain" type="checkbox" name="switch" class="switch is-thin is-rounded is-outlined" v-model="selected.domain">
+            <input id="domain" type="checkbox" name="switch" class="switch is-rounded" v-model="selected.domain">
             <label for="domain">I require a domain for $14.95/annum</label>
         </div>
 
         <div class="field">
-            <input id="hosting" type="checkbox" name="switch" class="switch is-thin is-rounded is-outlined" v-model="selected.hosting">
+            <input id="hosting" type="checkbox" name="switch" class="switch is-rounded" v-model="selected.hosting">
             <label for="hosting">I require hosting for $6.95/month</label>
         </div>
 
         <div class="field is-grouped">
             <ul>
             <li><div class="field">
-                <input id="agent" type="checkbox" name="switch" class="switch is-thin is-rounded is-outlined" v-model="selected.agent">
+                <input id="agent" type="checkbox" name="switch" class="switch is-rounded" v-model="selected.agent">
                 <label for="agent">GetRETS Agent Bundle (Individual) for $21.00/month </label>
             </div></li>
 
             <li><div class="field">
-                <input id="broker" type="checkbox" name="switch" class="switch is-thin is-rounded is-outlined" v-model="broker">
+                <input id="broker" type="checkbox" name="switch" class="switch is-rounded" v-model="broker">
                 <label for="broker">GetRETS Broker Bundle (Commercial) for $121.00/month</label>
             </div></li>
             </ul>

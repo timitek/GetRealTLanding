@@ -3,6 +3,21 @@
     Upload any images you would like to be used on your site.
 </p>
 
+
+<div class="field">
+  <label class="label">Image Type</label>
+  <div class="control">
+    <div class="select is-primary">
+      <select v-model="imageType">
+      <option>Profile</option>
+      <option>Banner</option>
+      <option>Huh?</option>
+      <option>Duh!</option>
+      </select>
+    </div>
+  </div>
+</div>
+
 <div class="file has-name">
   <label class="file-label">
     <input class="file-input" type="file" id="imageToUpload" v-on:change="uploadImage">
@@ -32,9 +47,9 @@
         <li v-for="error in errorDetails" v-text="error"></li>
     </ul>
 </div>
-
+ <p> <br /> </p>
 <div class="field is-grouped">
   <div class="control">
-    <button class="button is-link" v-on:click="showPage('confirmation')" :disabled="submitting">Done</button>
+    <button class="button is-primary is-medium is-outlined" v-on:click="showPage('confirmation')" :disabled="submitting">Done</button>
   </div>
 </div>
