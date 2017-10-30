@@ -32,12 +32,6 @@ class SignupController extends Controller
         //Store it in the databaswe
         $signup = Signup::create($validatedData);
 
-        /**
-         * Mailable generated with
-         * php artisan make:mail SignupSubmitted --markdown=emails.signup.submitted
-         */
-         //Mail::to("me@earth.com")->send(new SignupSubmitted($validatedData));
-
          return $signup;
     }
 
@@ -71,6 +65,12 @@ class SignupController extends Controller
         }
         
         return $image;
+
+        /**
+         * Mailable generated with
+         * php artisan make:mail SignupSubmitted --markdown=emails.signup.submitted
+         */
+         Mail::to("tavleen@timitek.com")->send(new SignupSubmitted($validatedData));
     }
 
      /**
@@ -105,8 +105,7 @@ class SignupController extends Controller
      * @return void
      */
      public function testEmail() {
-        $model = Signup::with('Images')->first()->toArray();
-        //dd($model);
+        $model = Signup::with('Images')->find('37')->toArray();
         return new SignupSubmitted($model);
     }
 }

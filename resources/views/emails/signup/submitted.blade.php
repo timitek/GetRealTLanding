@@ -21,6 +21,15 @@
  | Hosting       | {{$hosting}} |
  | Agent         | {{$agent}} |
  @endcomponent
+
+ # Image Details
+ @component('mail::table')
+ | Type         | Location         |
+ | ------------- |:-------------:|
+ @foreach ($images as $image)
+ | {{$image['type']}}    | [{{$image['filename']}}](http://landing.dev/images/{{$image['filename']}}) |
+ @endforeach
+ @endcomponent
  
  Thanks,<br>
  {{ config('app.name') }}
