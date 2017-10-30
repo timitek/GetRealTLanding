@@ -165,6 +165,8 @@ const app = new Vue({
                     this.submitting = false;
                     this.resetErrors();
                     this.images.push(response.data);
+                    this.imageType = null;
+                    image = null;
                 })
                 .catch((error) => {
                     this.submitting = false;
