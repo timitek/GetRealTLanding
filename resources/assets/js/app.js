@@ -129,7 +129,7 @@ const app = new Vue({
             this.resetErrors();
             this.submitting = true;
 
-            axios.post('/api/signup/submit', this.selected)
+            axios.post('/api/signup/saveContact', this.selected)
             .then((response) => {
                 this.submitting = false;
                 this.resetErrors();
@@ -188,6 +188,26 @@ const app = new Vue({
                 this.submitting = false;
                 this.resetErrors();
                 image.id = null;
+            })
+            .catch((error) => {
+                this.submitting = false;
+                this.handleError(error.response.data);
+            });
+        },
+
+        confirm: function () {
+            this.resetErrors();
+            this.submitting = true;
+
+            axios({
+                method: 'get',
+                url: '/api/signup/complete/' + this.signup_id,
+            })
+            .then((response) => {
+                this.submitting = false;
+                console.log(response);
+                this.resetErrors();
+                this.showPage('confirmation');
             })
             .catch((error) => {
                 this.submitting = false;
