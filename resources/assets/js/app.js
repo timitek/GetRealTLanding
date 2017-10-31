@@ -166,7 +166,7 @@ const app = new Vue({
                     this.resetErrors();
                     this.images.push(response.data);
                     this.imageType = null;
-                    image = null;
+                    this.lastImageName = null;
                 })
                 .catch((error) => {
                     this.submitting = false;
@@ -207,7 +207,6 @@ const app = new Vue({
             })
             .then((response) => {
                 this.submitting = false;
-                console.log(response);
                 this.resetErrors();
                 this.showPage('confirmation');
             })
