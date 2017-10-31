@@ -50,6 +50,6 @@
  <p> <br /> </p>
 <div class="field is-grouped">
   <div class="control">
-    <button class="button is-primary is-medium is-outlined" v-on:click="showPage('confirmation')" :disabled="submitting">Done</button>
+    <button class="button is-primary is-medium is-outlined" v-on:click="confirm()" :disabled="submitting">Done</button>
   </div>
 </div>

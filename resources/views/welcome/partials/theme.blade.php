@@ -4,7 +4,7 @@ Choose a theme:
 
 <div class="columns is-multiline">
   <div class="column is-one-quarter" v-for="theme in themes">
-    <img :src="'https://bootswatch.com/' + theme + '/thumbnail.png'" 
+    <img :src="'/theme_preview/' + theme + '.png'" 
          v-on:click="selectTheme(theme)"
          class="img-theme-preview">    
   </div>

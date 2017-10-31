@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Mail;
 
 class SignupController extends Controller
 {
-    public function submit (Request $request) {
+    public function saveContact(Request $request) {
         $validatedData = $request->validate([
             'firstName' => 'required|max:50',
             'lastName' => 'required|max:50',
@@ -31,12 +31,6 @@ class SignupController extends Controller
 
         //Store it in the databaswe
         $signup = Signup::create($validatedData);
-
-        /**
-         * Mailable generated with
-         * php artisan make:mail SignupSubmitted --markdown=emails.signup.submitted
-         */
-         //Mail::to("me@earth.com")->send(new SignupSubmitted($validatedData));
 
          return $signup;
     }
@@ -69,7 +63,7 @@ class SignupController extends Controller
                 'signup_id' => $validatedData['signup_id'],
             ]);
         }
-        
+
         return $image;
     }
 
@@ -96,6 +90,16 @@ class SignupController extends Controller
                 $img->delete();
             }
         }
+    }
+
+    public function complete($id) {
+         /**
+         * Mailable generated with
+         * php artisan make:mail SignupSubmitted --markdown=emails.signup.submitted
+         */
+        $model = Signup::with('Images')->find($id)->toArray();
+        Mail::to("me@earth.com")->send(new SignupSubmitted($model));
+        return new SignupSubmitted($model);
     }
 
     /**

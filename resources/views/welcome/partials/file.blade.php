@@ -2,28 +2,33 @@
 Here is how your file looks like:
 </h1>
 
-<div class="columns">
-    <div class="column is-half">
-        <div class="card">
+<div class="card">
+    <div class="columns">
+        <div class="column is-half">
             <div class="card-image">
                 <figure class="image is-4by3">
-                    <img :src="'https://bootswatch.com/' + selected.theme + '/thumbnail.png'">
+                    <img :src="'/theme_preview/' + selected.theme + '.png'">
                 </figure>
             </div>
-            <div class="card-content">
-                <div class="media">
-                    <div class="media-left">
-                        <figure class="image is-48x48">
-                            <img :src="'https://bootswatch.com/' + selected.theme + '/thumbnail.png'">
-                        </figure>
-                    </div>
-                    <div class="media-content">
-                        <p class="title is-4"><span v-text="selected.firstName"></span></p>
-                        <p class="subtitle is-6"><span v-text="selected.email"></span></p>
-                    </div>
-                </div>
-            </div>
         </div>
+        <div class="column">
+            <div class="card-content">
+                <p class="title is-4">Name: <span v-text="selected.firstName + ' ' + selected.lastName"></span></p>
+                <p class="title is-4">Email: <span v-text="selected.email"></span></p>
+                <p class="title is-4">Phone: <span v-text="selected.phone"></span></p>
+                <p class="title is-4">Address: <span v-text="selected.address"></span></p>
+                <p class="title is-4">City: <span v-text="selected.city"></span></p>
+                <p class="title is-4">State: <span v-text="selected.state"></span></p>
+                <p class="title is-4">Zip: <span v-text="selected.zip"></span></p>
+                <ul>
+                    <li><p class="title is-4">Products:</p></li>
+                    <li><p v-if="selected.domain" class="subtitle is-5">&emsp;Domain</p></li>
+                    <li><p v-if="selected.hosting" class="subtitle is-5">&emsp;Hosting</p></li>
+                    <li><p v-if="selected.agent" class="subtitle is-5">&emsp;GetRETS Agent Bundle</p></li>
+                    <li><p v-if="!selected.agent" class="subtitle is-5">&emsp;GetRETS Broker Bundle</p></li>
+                </ul>
+            </div>
+        </div>            
     </div>
 </div>
 

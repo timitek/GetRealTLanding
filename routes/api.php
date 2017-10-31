@@ -17,7 +17,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('signup/submit', 'SignupController@submit');
+Route::post('signup/saveContact', 'SignupController@saveContact');
 Route::get('signup/testEmail', 'SignupController@testEmail');
 Route::post('signup/uploadImage', 'SignupController@uploadImage');
 Route::post('signup/deleteImage', 'SignupController@deleteImage');
+Route::get('signup/complete/{id}', 'SignupController@complete'); // http://landing.dev/api/signup/complete/37
