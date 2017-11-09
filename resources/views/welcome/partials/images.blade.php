@@ -48,8 +48,9 @@
     </ul>
 </div>
  <p> <br /> </p>
-<div class="field is-grouped">
-  <div class="control">
-    <button class="button is-primary is-medium is-outlined" v-on:click="confirm()" :disabled="submitting">Done</button>
-  </div>
+<div class="field is-grouped is-pulled-right">
+<div class="control">
+    <a class="button is-warning is-outlined is-medium" v-on:click="showPage('file')">Back</a>
+    <a class="button is-primary is-medium is-outlined" v-on:click="showPage('blogs')">Next</a>
+</div>
 </div>
