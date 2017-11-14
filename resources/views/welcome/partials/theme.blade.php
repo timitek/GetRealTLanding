@@ -1,6 +1,9 @@
 <h1 class="title">
-Choose a theme:
+Choose a feel:
 </h1>
+<p class="subtitle">
+Never mind the background pictures, you can personalize it the next step.
+</p>
 
 <div class="columns is-multiline">
   <div class="column is-one-quarter" v-for="theme in themes">

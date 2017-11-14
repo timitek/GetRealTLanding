@@ -17,6 +17,9 @@
 <div v-if="currentPage === 'images'">
     @include('welcome.partials.images')
 </div>
+<div v-if="currentPage === 'blogs'">
+    @include('welcome.partials.blogs')
+</div>
 <div v-if="currentPage === 'confirmation'">
     @include('welcome.partials.confirmation')
 </div>
