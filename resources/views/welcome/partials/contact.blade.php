@@ -1,40 +1,50 @@
 <div class="steps">
-  <div class="step-item is-completed is-success">
-    <div class="step-marker">
-      <span class="icon">
-        <i class="fa fa-check"></i>
-      </span>
-    </div>
-    <div class="step-details">
-      <p class="step-title">Step 1</p>
-      <p>This is the first step of the process.</p>
-    </div>
-  </div>
   <div class="step-item is-active">
-    <div class="step-marker"></div>
-    <div class="step-details">
-      <p class="step-title">Step 2</p>
-      <p>This is the second step. You get here once you have completed the first step.</p>
-    </div>
+      <div class="step-marker">1</div>
+      <div class="step-details">
+        <p class="step-title">Contact</p>
+      </div>
   </div>
-  <div class="step-item">
+<div class="step-item">
+    <div class="step-marker">2</div>
+    <div class="step-details">
+        <p class="step-title">Products</p>
+    </div>
+</div>
+<div class="step-item">
     <div class="step-marker">3</div>
     <div class="step-details">
-      <p class="step-title">Step 3</p>
-      <p>This is the third step. One more last before the end.</p>
+        <p class="step-title">Theme</p>
     </div>
-  </div>
-  <div class="step-item">
+</div>
+<div class="step-item">
+    <div class="step-marker">4</div>
+    <div class="step-details">
+        <p class="step-title">Confirm</p>
+    </div>
+</div>
+<div class="step-item">
+    <div class="step-marker">5</div>
+    <div class="step-details">
+        <p class="step-title">Images Upload</p>
+    </div>
+</div>
+<div class="step-item">
+    <div class="step-marker">6</div>
+    <div class="step-details">
+        <p class="step-title">Content</p>
+    </div>
+</div>  
+<div class="step-item">
     <div class="step-marker">
-      <span class="icon">
-        <i class="fa fa-flag"></i>
-      </span>
+        <span class="icon">
+            <i class="fa fa-flag"></i>
+        </span>
     </div>
     <div class="step-details">
-      <p class="step-title">Step 4</p>
-      <p>Final step. You have completed all the previous steps and end the process.</p>
+        <p class="step-title">Done</p>
     </div>
-  </div>
+</div>
 </div>
 
 
