@@ -50,12 +50,16 @@
         </div>
     </div>
     <div class="step-item is-completed is-success">
-        <div class="step-marker">6</div>
+        <div class="step-marker">
+            <span class="icon">
+                <i class="fa fa-check"></i>
+            </span>
+        </div>
         <div class="step-details">
             <p class="step-title">Content</p>
         </div>
     </div>  
-    <div class="step-item is-completed is-success">
+    <div class="step-item is-completed is-active is-success">
         <div class="step-marker">
             <span class="icon">
                 <i class="fa fa-flag"></i>
